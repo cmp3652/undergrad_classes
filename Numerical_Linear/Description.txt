@@ -1,1 +1,10 @@
+This is a description of all of the codes shown in this folder.
 
+All of these were created for my Numerical Linear Algebra Class taking Spring 2023. The Professor for this class was Dr. Basca Jadamba
+
+Inverse_Power_Iteration.m
+- Inverse Power Iteration is used to iteratively find the approximate eigenvector of a matrix. 
+- The algorithm takes in a matrix, the approximate eigenvalue, and an initial value.
+
+SOR_method.m
+- 
