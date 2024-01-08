@@ -1,10 +1,25 @@
 This is a description of all of the codes shown in this folder.
 
-All of these were created for my Numerical Linear Algebra Class taking Spring 2023. The Professor for this class was Dr. Basca Jadamba
+All of these were created for my Numerical Linear Algebra Class in Spring 2023. The Professor for this class was Dr. Basca Jadamba.
 
 Inverse_Power_Iteration.m
 - Inverse Power Iteration is used to iteratively find the approximate eigenvector of a matrix. 
-- The algorithm takes in a matrix, the approximate eigenvalue, and an initial value.
+- The algorithm takes in a matrix, the approximate eigenvalue, and an initial guess. It outputs an eigenvector.
 
 SOR_method.m
-- 
+- Successive Over-Relaxation is a method that iteratively solved the inverse Linear System (Ax = b)
+- It is a variant of the Gauss-Seidel Method but converges faster.
+- The algorithm takes in a matrix, a vector, and an initial guess. It outputs a vector.
+
+SVD_Rover.m
+- This algorithm shows that you can truncate the SVD of an image at a certain point without disturbing the image itself.
+- Download the Rover2.tiff
+- The algorithm takes in an image and outputs an image.
+
+gauss_seidel.m
+- Gauss-Seidel is used to iteratively solve the inverse Linear System (Ax = b)
+- The algorithm takes in a matrix, a vector, and an initial guess and outputs a vector.
+
+jacobi_method.m
+- Jacobi iteratively solves the inverse linear system for a diagonally dominant matrix (Ax = b).
+- Takes in a matrix, a vector, and an initial guess. Outputs a vector.
